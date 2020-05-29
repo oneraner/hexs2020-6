@@ -1,0 +1,89 @@
+.productlist{
+    background-color: #F2F2F2;
+    height: 76px;
+}
+.productitem{
+    @include productitem;
+    @include pad(){
+        font-family: 'Roboto', sans-serif;
+        font-size: $font-size-base;
+        font-weight: $font-weight-bold;
+        color: #0000009A;
+        line-height: $lh-1rem;
+    }
+}
+.waterfall{
+    margin-bottom: 72px;
+    @include pad(){
+        margin-bottom: 3rem;
+    }
+}
+.productimg1{
+    background-image: url(../week6/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.productimg2{
+    background-image: url(../week6/img-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.productimg3{
+    background-image: url(../week6/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.productimg4{
+    background-image: url(../week6/img-4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.productimg5{
+    background-image: url(../week6/img-5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.productimg6{
+    background-image: url(../week6/img-6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.productimg7{
+    background-image: url(../week6/img-7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.productimg8{
+    background-image: url(../week6/img-8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.productimg9{
+    background-image: url(../week6/img-9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.current{
+    color: #0E8A00;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-bold;
+    line-height: $lh-24-small;
+}
+.page-numc{
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-bold;
+    color: #121212;
+    line-height: $lh-24-small;
+}
+.page-mr{
+    margin-right: 32px;
+}
+.page-button{
+    margin-bottom: 6rem;
+    @include pad(){
+        margin-bottom: 3rem;
+    }
+}

@@ -14,6 +14,8 @@ $lh-24-29:1.208;
 $lh-24-small:1.1667;
 $lh-1rem:1.1875;
 
+$mark-color:#0E8A00;
+
 $mb-2rem:2rem;
 //custom mixin
 @mixin logo{
@@ -68,5 +70,21 @@ $mb-2rem:2rem;
       font-weight: $font-weight-normal;
       color: #fff;
       line-height: 1.14;
-  
+}
+@mixin productitem{
+      font-family: 'Roboto', sans-serif;
+      font-size: $font-size-lg;
+      font-weight: $font-weight-normal;
+      color: #0000009A;
+      line-height: 1.16;
+}
+@mixin pad{
+  @media (max-width:768px){
+      @content;
+  }
+}
+@mixin none{
+  @media (min-width:769px) {
+      display: none;
+  }
 }
