@@ -5,6 +5,14 @@
 .headeritem{
     color: #fff;
 }
+.headeritem-show{
+    color: #121212;
+}
+li{
+    .mark-cus{
+        color: $mark-color;   
+    }
+}
 //footer 
 //Subscribe
 .Subscribe{
@@ -12,6 +20,9 @@
     background-position: center;
     background-size: cover;
     height: 400px;
+    @include pad(){
+        height: 224px;
+    }
 }
 .Subscribe-content{
     font-family: 'Roboto', sans-serif;
@@ -21,20 +32,35 @@
     line-height: $lh-3rem;
     margin-bottom: 3rem;
     padding: 0;
+    @include pad(){
+        font-size: 2rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+        padding-left: 15px;
+    }
 }
 .Subscribe-email{
     margin-left: 0;
     padding: 0;
+    @include pad(){
+        padding-left: 15px;
+    }
 }
 .Subscribe-email-input{
     border-radius: 4px 0 0 4px;
     width: 286px;
     height: 56px;
+    @include pad(){
+        width: 211px;
+    }
 }
 .btn-Subscribe{
     @include button0E8A00;
     width: 160px;
     height: 56px;
+    @include pad(){
+        width: 120px;
+    }
 }
 //brand copyright
 .footer-brand{
@@ -53,4 +79,15 @@
 }
 .policy-mr{
     margin-right: 3rem;
+}
+.copyrightpad{
+    @include pad(){
+        display: flex;
+        flex-direction: column;
+    }
+}
+.policypad{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }

@@ -16,6 +16,31 @@ body{
     height: 350px;
     margin-bottom: 8px;
     border-radius: 2px;
+    @include pad(){
+        height: 161px;
+        margin-bottom: 8px;
+        border-radius: 2px;
+    }
+}
+.card-img-big{
+    height: 480px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    @include pad(){
+        height: 161px;
+        margin-bottom: 8px;
+        border-radius: 2px;
+    }
+}
+.card-img-small{
+    height: 240px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    @include pad(){
+        height: 161px;
+        margin-bottom: 8px;
+        border-radius: 2px;
+    }
 }
 .swiper-img1{
     background-image: url(../week6/img-1.jpg);
@@ -42,11 +67,24 @@ body{
 }
 .card-title{
     @include paragraph-title;
+    @include pad(){
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.25rem;
+        font-weight: $font-weight-bold;
+        color: #121212;
+        line-height: 1.8;
+    }
 }
 .card-text{
     @include paragraph-content;
     color: #121212;
     height: 19px;
+    @include pad(){
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.875rem;
+        font-weight: $font-weight-normal;
+        color: #0000009A;
+    }
 }
 .onsale{
     position: absolute;
