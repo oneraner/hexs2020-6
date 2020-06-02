@@ -63,8 +63,10 @@
 //bigblock
 .firstimg{
     background-image: url(../week6/index-2.jpg);
+    width: 50%;
     @include indeximg-mid;
     @include pad(){
+        width: 100%;
         height: 244px;
     }
 }

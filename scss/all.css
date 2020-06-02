@@ -11090,6 +11090,7 @@ li .mark-cus {
 
 .firstimg {
   background-image: url(../week6/index-2.jpg);
+  width: 50%;
   height: 400px;
   background-position: center;
   background-size: cover;
@@ -11097,6 +11098,7 @@ li .mark-cus {
 
 @media (max-width: 768px) {
   .firstimg {
+    width: 100%;
     height: 244px;
   }
 }
