@@ -1,0 +1,132 @@
+//h1
+.righttopimg{
+    background-image: url(../week6/index-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    top: 0;
+    right: 0;
+    @include pad(){
+        height: 640px;
+    }
+}
+.header{
+    height: 77px;
+}
+.svgcolor{
+    fill: #fff;
+}
+.svgcolor-show{
+    fill: #121212;
+}
+.h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: $font-weight-bold;
+    color: #121212;
+    line-height: $lh-3rem;
+    @include pad(){
+        color: #fff;
+        text-align: center;
+    }
+}
+.h1content{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: $font-weight-normal;
+    color: #0000009A;
+    line-height: $lh-24-big;
+    @include pad(){
+        color: #fff;
+        font-size: $font-size-base;
+    }
+}
+.btn-shopnow{
+    @include button0E8A00;
+    width: 160px;
+    height: 56px;
+    @include pad(){
+        width: 330px;
+    }
+}
+.bigblock{
+    margin-top: 9.93rem;
+    margin-bottom: 19.25rem;
+    @include pad(){
+        margin-top: 8rem;
+        margin-bottom: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+//bigblock
+.firstimg{
+    background-image: url(../week6/index-2.jpg);
+    @include indeximg-mid;
+}
+.secondimg{
+    background-image: url(../week6/index-3.jpg);
+    @include indeximg-mid;
+}
+.thirdimg{
+    background-image: url(../week6/index-4.jpg);
+    @include indeximg-mid;
+}
+.paragraph-title{
+    @include paragraph-title;
+}
+.paragraph-content{
+    @include paragraph-content;
+}
+.paragraph-link{
+    @include paragraph-link;
+}
+.mid{
+    @include mid;
+}
+.mb-2rem{
+    margin-bottom: $mb-2rem;
+}
+.indexbig{
+    max-height: 160px;
+}
+//banner
+.banner{
+    background-image: url(../week6/index-5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-bottom: 72px;
+}
+.banner-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: $font-weight-bold;
+    color: #fff;
+    line-height: $lh-24-big;
+}
+.banner-white{
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size-base;
+    font-weight: $font-weight-normal;
+    color: #ffffff99;
+    line-height: $lh-1rem;
+}
+.banner-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-normal;
+    color: #fff;
+    line-height: 1;
+}
+.banner-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: $font-size-sm;
+    font-weight: $font-weight-bold;
+    color: #0E8A00;
+    line-height: 1.14;
+}
+.mr-23{
+    margin-right: 23px;
+}

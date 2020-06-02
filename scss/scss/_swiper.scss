@@ -1,0 +1,107 @@
+body{
+    .swiper-container{
+        margin-left: 5.3125rem;
+    }
+}
+.swiper-wrapper{
+    .swiper-slide{
+        width: 350px;
+        margin-right: 30px;
+    }
+}
+.card{
+    border: none;
+}
+.card-img-top{
+    height: 350px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    @include pad(){
+        height: 161px;
+        margin-bottom: 8px;
+        border-radius: 2px;
+    }
+}
+.card-img-big{
+    height: 480px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    @include pad(){
+        height: 161px;
+        margin-bottom: 8px;
+        border-radius: 2px;
+    }
+}
+.card-img-small{
+    height: 240px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    @include pad(){
+        height: 161px;
+        margin-bottom: 8px;
+        border-radius: 2px;
+    }
+}
+.swiper-img1{
+    background-image: url(../week6/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.swiper-img2{
+    background-image: url(../week6/img-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.swiper-img3{
+    background-image: url(../week6/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.swiper-img4{
+    background-image: url(../week6/img-4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card-body{
+    padding: 0;
+}
+.card-title{
+    @include paragraph-title;
+    @include pad(){
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.25rem;
+        font-weight: $font-weight-bold;
+        color: #121212;
+        line-height: 1.8;
+    }
+}
+.card-text{
+    @include paragraph-content;
+    color: #121212;
+    height: 19px;
+    @include pad(){
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.875rem;
+        font-weight: $font-weight-normal;
+        color: #0000009A;
+    }
+}
+.onsale{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #ffffff;
+    font-size: $font-size-sm;
+    line-height: 1.142;
+    font-weight: $font-weight-bold;
+}
+.price{
+    margin-right: 8px;
+}
+.priceoff{
+    color: #00000062;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    font-weight: $font-weight-normal;
+    text-decoration:line-through;
+}
