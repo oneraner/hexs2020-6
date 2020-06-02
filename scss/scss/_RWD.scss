@@ -1,0 +1,18 @@
+.hamburger{
+   @include none;
+}
+.none{
+    @include pad(){
+        display: none;
+    }
+}
+.padmr24{
+    @include pad(){
+        margin-right: 1.5rem;
+    }
+}
+.card-columns{
+    @include pad(){
+        column-count: 2;
+    }
+}
