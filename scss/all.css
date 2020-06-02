@@ -10836,6 +10836,12 @@ p {
   color: #121212;
 }
 
+@media (max-width: 768px) {
+  .padwhite {
+    color: #fff;
+  }
+}
+
 .headeritem {
   color: #fff;
 }
@@ -10981,6 +10987,12 @@ li .mark-cus {
   right: 0;
 }
 
+@media (max-width: 768px) {
+  .righttopimg {
+    height: 640px;
+  }
+}
+
 .header {
   height: 77px;
 }
@@ -11001,12 +11013,26 @@ li .mark-cus {
   line-height: 1.3333;
 }
 
+@media (max-width: 768px) {
+  .h1 {
+    color: #fff;
+    text-align: center;
+  }
+}
+
 .h1content {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   color: #0000009A;
   line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .h1content {
+    color: #fff;
+    font-size: 1rem;
+  }
 }
 
 .btn-shopnow {
@@ -11021,9 +11047,32 @@ li .mark-cus {
   height: 56px;
 }
 
+@media (max-width: 768px) {
+  .btn-shopnow {
+    width: 330px;
+  }
+}
+
 .bigblock {
   margin-top: 9.93rem;
   margin-bottom: 19.25rem;
+}
+
+@media (max-width: 768px) {
+  .bigblock {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .firstimg {
@@ -11104,6 +11153,12 @@ li .mark-cus {
   font-weight: 700;
   color: #fff;
   line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .banner-title {
+    margin-top: 24px;
+  }
 }
 
 .banner-white {

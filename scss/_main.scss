@@ -6,6 +6,9 @@
     height: 800px;
     top: 0;
     right: 0;
+    @include pad(){
+        height: 640px;
+    }
 }
 .header{
     height: 77px;
@@ -22,6 +25,10 @@
     font-weight: $font-weight-bold;
     color: #121212;
     line-height: $lh-3rem;
+    @include pad(){
+        color: #fff;
+        text-align: center;
+    }
 }
 .h1content{
     font-family: 'Roboto', sans-serif;
@@ -29,15 +36,29 @@
     font-weight: $font-weight-normal;
     color: #0000009A;
     line-height: $lh-24-big;
+    @include pad(){
+        color: #fff;
+        font-size: $font-size-base;
+    }
 }
 .btn-shopnow{
     @include button0E8A00;
     width: 160px;
     height: 56px;
+    @include pad(){
+        width: 330px;
+    }
 }
 .bigblock{
     margin-top: 9.93rem;
     margin-bottom: 19.25rem;
+    @include pad(){
+        margin-top: 8rem;
+        margin-bottom: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 //bigblock
 .firstimg{
@@ -84,6 +105,9 @@
     font-weight: $font-weight-bold;
     color: #fff;
     line-height: $lh-24-big;
+    @include pad(){
+        margin-top: 24px;
+    }
 }
 .banner-white{
     font-family: 'Roboto', sans-serif;

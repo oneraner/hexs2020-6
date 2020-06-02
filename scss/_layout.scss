@@ -2,6 +2,11 @@
 .logo{
     @include logo;
 }
+.padwhite{
+    @include pad(){
+        color: #fff;
+    }
+}
 .headeritem{
     color: #fff;
 }
