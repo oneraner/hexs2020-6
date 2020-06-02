@@ -64,6 +64,9 @@
 .firstimg{
     background-image: url(../week6/index-2.jpg);
     @include indeximg-mid;
+    @include pad(){
+        height: 244px;
+    }
 }
 .secondimg{
     background-image: url(../week6/index-3.jpg);

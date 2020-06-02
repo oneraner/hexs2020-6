@@ -10933,8 +10933,21 @@ li .mark-cus {
   height: 93px;
 }
 
+@media (max-width: 768px) {
+  .footer-brand {
+    height: 268px;
+  }
+}
+
 .footer-brand ul {
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-title {
+    margin-top: 23px;
+    margin-bottom: 3rem;
+  }
 }
 
 .footerlogo {
@@ -10949,19 +10962,19 @@ li .mark-cus {
   line-height: 1.14;
 }
 
-.policy-mr {
+@media (max-width: 768px) {
+  .policy {
+    margin-bottom: 3rem;
+  }
+}
+
+.policy-m {
   margin-right: 3rem;
 }
 
 @media (max-width: 768px) {
-  .copyrightpad {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .policy-m {
+    margin-bottom: 1rem;
   }
 }
 
@@ -11080,6 +11093,12 @@ li .mark-cus {
   height: 400px;
   background-position: center;
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .firstimg {
+    height: 244px;
+  }
 }
 
 .secondimg {

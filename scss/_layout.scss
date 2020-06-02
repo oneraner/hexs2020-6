@@ -72,8 +72,17 @@ li{
     background-color: #121212;
     color: #ffffff;
     height: 93px;
+    @include pad(){
+        height: 268px;
+    }
     ul{
         padding: 0;
+    }
+}
+.footer-title{
+    @include pad(){
+        margin-top: 23px;
+        margin-bottom: 3rem;
     }
 }
 .footerlogo{
@@ -82,15 +91,23 @@ li{
 .smallwhite{
     @include smallwhite;
 }
-.policy-mr{
-    margin-right: 3rem;
-}
-.copyrightpad{
+.policy{
     @include pad(){
-        display: flex;
-        flex-direction: column;
+        margin-bottom: 3rem;
     }
 }
+.policy-m{
+    margin-right: 3rem;
+    @include pad(){
+        margin-bottom: 1rem;
+    }
+}
+//.copyrightpad{
+//    @include pad(){
+//        display: flex;
+//        flex-direction: column;
+//    }
+//}
 .policypad{
     display: flex;
     flex-direction: column;
