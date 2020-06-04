@@ -11100,21 +11100,40 @@ li .mark-cus {
   .firstimg {
     width: 100%;
     height: 244px;
+    margin-bottom: 1rem;
   }
 }
 
 .secondimg {
   background-image: url(../week6/index-3.jpg);
+  width: 50%;
   height: 400px;
   background-position: center;
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  .secondimg {
+    width: 100%;
+    height: 244px;
+    margin-bottom: 1rem;
+  }
+}
+
 .thirdimg {
   background-image: url(../week6/index-4.jpg);
+  width: 50%;
   height: 400px;
   background-position: center;
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .thirdimg {
+    width: 100%;
+    height: 244px;
+    margin-bottom: 1rem;
+  }
 }
 
 .paragraph-title {
@@ -11154,6 +11173,12 @@ li .mark-cus {
 
 .mb-2rem {
   margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .mb-2rem {
+    margin-bottom: 1rem;
+  }
 }
 
 .indexbig {
@@ -11476,8 +11501,8 @@ body .swiper-container {
 }
 
 @media (max-width: 768px) {
-  .none {
-    display: none;
+  .padnone {
+    display: none !important;
   }
 }
 

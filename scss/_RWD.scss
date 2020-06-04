@@ -1,9 +1,9 @@
 .hamburger{
    @include none;
 }
-.none{
+.padnone{
     @include pad(){
-        display: none;
+        display: none !important;
     }
 }
 .padmr24{
